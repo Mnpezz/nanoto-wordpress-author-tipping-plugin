@@ -1,0 +1,65 @@
+.nanopay-tip-button-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.author .nanopay-tip-button-container {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.nanopay-tip-button {
+    background-color: #089dff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: .875em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nanopay-tip-button:hover {
+    background-color: #0077cc;
+}
+
+body, .secondary-navigation a {
+    color: #ffffff;
+}
+
+.nanopay-tip-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nanopay-tip-link:hover {
+    color: #089dff;
+    text-decoration: underline;
+}
+
+.post-tip {
+    font-size: inherit;
+    line-height: inherit;
+    font-size: .875em;
+    font-weight: 600;
+    text-decoration: underline
+}
+
+.nanopay-tip-link-container {
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s;
+    display: inline;
+}
+
+.nanopay-tip-link-container:hover {
+    color: #089dff;
+    text-decoration: underline;
+}
+
+/* Remove old styles */
+.nanopay-tip-button-container,
+.nanopay-tip-button {
+    display: none;
+}
